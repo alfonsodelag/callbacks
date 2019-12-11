@@ -1,5 +1,8 @@
 function a(){
-    console.log("Se ha ejecutado la función a");
+    // Simulamos un tiempo de espera en la ejecución de la función a
+    setTimeout( function(){
+      console.log("Se ha ejecutado la función a");
+    }, 1000 );
   }
   
   function b(){
